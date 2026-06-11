@@ -131,7 +131,6 @@
     .sec1{
         text-align: center;
         margin-top: 0px;
-
     }
      .sec1 p{
      color: grey;
@@ -213,3 +212,126 @@
         height: 80px;
         background-color: white;
     }
+    .karta1{
+    width: 380px;
+    height: 240px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.karta1 h3{
+    width: 360px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.zz1{
+    display: flex;
+    justify-content: space-around;
+
+}
+.zz1 h3{
+   margin-top: 20px;
+}
+.sas{
+    margin-top: 20px;
+}
+.sec3{
+        text-align: center;
+        margin-top: 100px;
+    }
+     .sec3 p{
+     color: grey;
+     margin-top: 50px;
+    }
+
+
+
+    @media (max-width: 768px) {
+
+    .container {
+        padding: 20px 15px;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+    .quote-btn {
+        display: none; /* Скрываем кнопку в меню для мобильной версии */
+    }
+    .hero-text {
+        text-align: center;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .hero-text h1 {
+        font-size: 36px;
+    }
+    .hero-text p {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .primary-btn,
+    .secondary-btn {
+        width: 80%;
+        padding: 12px;
+    }
+    .form-box {
+        width: 100%;
+        position: relative;
+        top: 30px;
+        right: 0;
+        margin: 0 auto;
+    }
+    .form-box h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    input, select {
+        padding: 10px;
+    }
+    .book-btn {
+        padding: 12px;
+    }
+    .sec1 {
+        margin-top: 30px;
+    }
+    .sec1 p {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .sec2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .sec2 .card {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .zz1{
+        flex-wrap: wrap;
+    }
+    
+}
