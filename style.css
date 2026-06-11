@@ -341,12 +341,37 @@
         gap: 10px;
         margin-top: 10px;
     }
+    .vik{
+        width: 100%;
+        height: 200px;
+        background-color:#252B42 ;
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        padding: 30px;
+        color: white;
+        align-items: center;
+    }
+    .s1{
+        width: 250px;
+        height: 30px;
+        background-color: white;
+    }
+    .faf{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    .faf p{
+        color: grey;
+    }
 
 
     @media (max-width: 768px) {
 
     .container {
         padding: 20px 15px;
+        height:1100px;
     }
     nav {
         flex-direction: column;
@@ -428,6 +453,19 @@
         flex-wrap: wrap;
     }
     .komint1{
+        flex-wrap: wrap;
+    }
+    .pop0{
+        flex-wrap: wrap;
+    }
+    .vik{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .faf{
+        width: 60%;
+        gap: 10px;
+      margin-left: 20px;
         flex-wrap: wrap;
     }
     
